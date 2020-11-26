@@ -6,10 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <ol>
-    {% for item in items %}
-        <a href="/item/{{item.id}}"><li>{{item.name}}</li></a>
-    {% endfor %}
-    </ol>
+    {{item.name}} {{item.brand}} : {{item.count}}
 </body>
 </html>
